@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html>
+	<head>
+<!--
+	Created by Jake Mandell - 2015
+
+-->
+	<meta charset = "utf-8" />
+
+	<link href="style.css" rel="stylesheet" type="text/css" />
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+
+	<title>Web Clock</title>
+
+	</head>
+
+	<body>  
+
+		<div id="info">
+
+			<p><i><b>WebClock</b></i> by Jake Mandell  |  Created using HTML, CSS, JavaScript, jQuery, and Photoshop.  </p>
+			<p>For more effects, try interacting with the clock or the pull-cord.</p>
+
+		</div>
+
+		<div id="image" class="lightsOn">
+
+			<div id="block">
+
+				<div id="hour1">
+					<div id="h1-1" class="on"></div>
+					<div id="h1-2" class="on"></div>
+					<div id="h1-3" class="on"></div>
+					<div id="h1-4" class="on"></div>
+					<div id="h1-5" class="on"></div>
+
+					<div id="h1-6" class="on"></div>
+					<div id="h1-7" class="on"></div>
+					<div id="h1-8" class="on"></div>
+					<div id="h1-9" class="on"></div>
+					<div id="h1-10" class="on"></div>
+
+					<div id="h1-11" class="on"></div>
+					<div id="h1-12" class="on"></div>
+					<div id="h1-13" class="on"></div>
+					<div id="h1-14" class="on"></div>
+					<div id="h1-15" class="on"></div>
+
+					<div id="h1-16" class="on"></div>
+					<div id="h1-17" class="on"></div>
+					<div id="h1-18" class="on"></div>
+					<div id="h1-19" class="on"></div>
+					<div id="h1-20" class="on"></div>
+
+					<div id="h1-21" class="on"></div>
+					<div id="h1-22" class="on"></div>
+					<div id="h1-23" class="on"></div>
+					<div id="h1-24" class="on"></div>
+					<div id="h1-25" class="on"></div>
+
+					<div id="h1-26" class="on"></div>
+					<div id="h1-27" class="on"></div>
+					<div id="h1-28" class="on"></div>
+					<div id="h1-29" class="on"></div>
+					<div id="h1-30" class="on"></div>
+
+					<div id="h1-31" class="on"></div>
+					<div id="h1-32" class="on"></div>
+					<div id="h1-33" class="on"></div>
+					<div id="h1-34" class="on"></div>
+					<div id="h1-35" class="on"></div>
+				</div>
+
+				<div id="hour2">
+					<div id="h2-1" class="on"></div>
+					<div id="h2-2" class="on"></div>
+					<div id="h2-3" class="on"></div>
+					<div id="h2-4" class="on"></div>
+					<div id="h2-5" class="on"></div>
+
+					<div id="h2-6" class="on"></div>
+					<div id="h2-7" class="on"></div>
+					<div id="h2-8" class="on"></div>
+					<div id="h2-9" class="on"></div>
+					<div id="h2-10" class="on"></div>
+
+					<div id="h2-11" class="on"></div>
+					<div id="h2-12" class="on"></div>
+					<div id="h2-13" class="on"></div>
+					<div id="h2-14" class="on"></div>
+					<div id="h2-15" class="on"></div>
+
+					<div id="h2-16" class="on"></div>
+					<div id="h2-17" class="on"></div>
+					<div id="h2-18" class="on"></div>
+					<div id="h2-19" class="on"></div>
+					<div id="h2-20" class="on"></div>
+
+					<div id="h2-21" class="on"></div>
+					<div id="h2-22" class="on"></div>
+					<div id="h2-23" class="on"></div>
+					<div id="h2-24" class="on"></div>
+					<div id="h2-25" class="on"></div>
+
+					<div id="h2-26" class="on"></div>
+					<div id="h2-27" class="on"></div>
+					<div id="h2-28" class="on"></div>
+					<div id="h2-29" class="on"></div>
+					<div id="h2-30" class="on"></div>
+
+					<div id="h2-31" class="on"></div>
+					<div id="h2-32" class="on"></div>
+					<div id="h2-33" class="on"></div>
+					<div id="h2-34" class="on"></div>
+					<div id="h2-35" class="on"></div>
+				</div>
+
+				<div id="break1">
+					<div id="b1-1" class="on"></div>
+					<div id="b1-2" class="on"></div>
+					<div id="b1-3" class="on"></div>
+					<div id="b1-4" class="on"></div>
+					<div id="b1-5" class="on"></div>
+
+					<div id="b1-6" class="on"></div>
+					<div id="b1-7" class="on"></div>
+					<div id="b1-8" class="on"></div>
+					<div id="b1-9" class="on"></div>
+					<div id="b1-10" class="on"></div>
+
+					<div id="b1-11" class="on"></div>
+					<div id="b1-12" class="on"></div>
+					<div id="b1-13" class="on"></div>
+					<div id="b1-14" class="on"></div>
+					<div id="b1-15" class="on"></div>
+
+					<div id="b1-16" class="on"></div>
+					<div id="b1-17" class="on"></div>
+					<div id="b1-18" class="on"></div>
+					<div id="b1-19" class="on"></div>
+					<div id="b1-20" class="on"></div>
+
+					<div id="b1-21" class="on"></div>
+					<div id="b1-22" class="on"></div>
+					<div id="b1-23" class="on"></div>
+					<div id="b1-24" class="on"></div>
+					<div id="b1-25" class="on"></div>
+
+					<div id="b1-26" class="on"></div>
+					<div id="b1-27" class="on"></div>
+					<div id="b1-28" class="on"></div>
+					<div id="b1-29" class="on"></div>
+					<div id="b1-30" class="on"></div>
+
+					<div id="b1-31" class="on"></div>
+					<div id="b1-32" class="on"></div>
+					<div id="b1-33" class="on"></div>
+					<div id="b1-34" class="on"></div>
+					<div id="b1-35" class="on"></div>
+				</div>
+
+				<div id="minute1">
+					<div id="m1-1" class="on"></div>
+					<div id="m1-2" class="on"></div>
+					<div id="m1-3" class="on"></div>
+					<div id="m1-4" class="on"></div>
+					<div id="m1-5" class="on"></div>
+
+					<div id="m1-6" class="on"></div>
+					<div id="m1-7" class="on"></div>
+					<div id="m1-8" class="on"></div>
+					<div id="m1-9" class="on"></div>
+					<div id="m1-10" class="on"></div>
+
+					<div id="m1-11" class="on"></div>
+					<div id="m1-12" class="on"></div>
+					<div id="m1-13" class="on"></div>
+					<div id="m1-14" class="on"></div>
+					<div id="m1-15" class="on"></div>
+
+					<div id="m1-16" class="on"></div>
+					<div id="m1-17" class="on"></div>
+					<div id="m1-18" class="on"></div>
+					<div id="m1-19" class="on"></div>
+					<div id="m1-20" class="on"></div>
+
+					<div id="m1-21" class="on"></div>
+					<div id="m1-22" class="on"></div>
+					<div id="m1-23" class="on"></div>
+					<div id="m1-24" class="on"></div>
+					<div id="m1-25" class="on"></div>
+
+					<div id="m1-26" class="on"></div>
+					<div id="m1-27" class="on"></div>
+					<div id="m1-28" class="on"></div>
+					<div id="m1-29" class="on"></div>
+					<div id="m1-30" class="on"></div>
+
+					<div id="m1-31" class="on"></div>
+					<div id="m1-32" class="on"></div>
+					<div id="m1-33" class="on"></div>
+					<div id="m1-34" class="on"></div>
+					<div id="m1-35" class="on"></div>
+				</div>
+
+				<div id="minute2">
+					<div id="m2-1" class="on"></div>
+					<div id="m2-2" class="on"></div>
+					<div id="m2-3" class="on"></div>
+					<div id="m2-4" class="on"></div>
+					<div id="m2-5" class="on"></div>
+
+					<div id="m2-6" class="on"></div>
+					<div id="m2-7" class="on"></div>
+					<div id="m2-8" class="on"></div>
+					<div id="m2-9" class="on"></div>
+					<div id="m2-10" class="on"></div>
+
+					<div id="m2-11" class="on"></div>
+					<div id="m2-12" class="on"></div>
+					<div id="m2-13" class="on"></div>
+					<div id="m2-14" class="on"></div>
+					<div id="m2-15" class="on"></div>
+
+					<div id="m2-16" class="on"></div>
+					<div id="m2-17" class="on"></div>
+					<div id="m2-18" class="on"></div>
+					<div id="m2-19" class="on"></div>
+					<div id="m2-20" class="on"></div>
+
+					<div id="m2-21" class="on"></div>
+					<div id="m2-22" class="on"></div>
+					<div id="m2-23" class="on"></div>
+					<div id="m2-24" class="on"></div>
+					<div id="m2-25" class="on"></div>
+
+					<div id="m2-26" class="on"></div>
+					<div id="m2-27" class="on"></div>
+					<div id="m2-28" class="on"></div>
+					<div id="m2-29" class="on"></div>
+					<div id="m2-30" class="on"></div>
+
+					<div id="m2-31" class="on"></div>
+					<div id="m2-32" class="on"></div>
+					<div id="m2-33" class="on"></div>
+					<div id="m2-34" class="on"></div>
+					<div id="m2-35" class="on"></div>
+				</div>
+
+				<div id="break2">
+					<div id="b2-1" class="on"></div>
+					<div id="b2-2" class="on"></div>
+					<div id="b2-3" class="on"></div>
+					<div id="b2-4" class="on"></div>
+					<div id="b2-5" class="on"></div>
+
+					<div id="b2-6" class="on"></div>
+					<div id="b2-7" class="on"></div>
+					<div id="b2-8" class="on"></div>
+					<div id="b2-9" class="on"></div>
+					<div id="b2-10" class="on"></div>
+
+					<div id="b2-11" class="on"></div>
+					<div id="b2-12" class="on"></div>
+					<div id="b2-13" class="on"></div>
+					<div id="b2-14" class="on"></div>
+					<div id="b2-15" class="on"></div>
+
+					<div id="b2-16" class="on"></div>
+					<div id="b2-17" class="on"></div>
+					<div id="b2-18" class="on"></div>
+					<div id="b2-19" class="on"></div>
+					<div id="b2-20" class="on"></div>
+
+					<div id="b2-21" class="on"></div>
+					<div id="b2-22" class="on"></div>
+					<div id="b2-23" class="on"></div>
+					<div id="b2-24" class="on"></div>
+					<div id="b2-25" class="on"></div>
+
+					<div id="b2-26" class="on"></div>
+					<div id="b2-27" class="on"></div>
+					<div id="b2-28" class="on"></div>
+					<div id="b2-29" class="on"></div>
+					<div id="b2-30" class="on"></div>
+
+					<div id="b2-31" class="on"></div>
+					<div id="b2-32" class="on"></div>
+					<div id="b2-33" class="on"></div>
+					<div id="b2-34" class="on"></div>
+					<div id="b2-35" class="on"></div>
+				</div>
+
+				<div id="second1">
+					<div id="s1-1" class="on"></div>
+					<div id="s1-2" class="on"></div>
+					<div id="s1-3" class="on"></div>
+					<div id="s1-4" class="on"></div>
+					<div id="s1-5" class="on"></div>
+
+					<div id="s1-6" class="on"></div>
+					<div id="s1-7" class="on"></div>
+					<div id="s1-8" class="on"></div>
+					<div id="s1-9" class="on"></div>
+					<div id="s1-10" class="on"></div>
+
+					<div id="s1-11" class="on"></div>
+					<div id="s1-12" class="on"></div>
+					<div id="s1-13" class="on"></div>
+					<div id="s1-14" class="on"></div>
+					<div id="s1-15" class="on"></div>
+
+					<div id="s1-16" class="on"></div>
+					<div id="s1-17" class="on"></div>
+					<div id="s1-18" class="on"></div>
+					<div id="s1-19" class="on"></div>
+					<div id="s1-20" class="on"></div>
+
+					<div id="s1-21" class="on"></div>
+					<div id="s1-22" class="on"></div>
+					<div id="s1-23" class="on"></div>
+					<div id="s1-24" class="on"></div>
+					<div id="s1-25" class="on"></div>
+
+					<div id="s1-26" class="on"></div>
+					<div id="s1-27" class="on"></div>
+					<div id="s1-28" class="on"></div>
+					<div id="s1-29" class="on"></div>
+					<div id="s1-30" class="on"></div>
+
+					<div id="s1-31" class="on"></div>
+					<div id="s1-32" class="on"></div>
+					<div id="s1-33" class="on"></div>
+					<div id="s1-34" class="on"></div>
+					<div id="s1-35" class="on"></div>
+				</div>
+
+				<div id="second2">
+					<div id="s2-1" class="on"></div>
+					<div id="s2-2" class="on"></div>
+					<div id="s2-3" class="on"></div>
+					<div id="s2-4" class="on"></div>
+					<div id="s2-5" class="on"></div>
+
+					<div id="s2-6" class="on"></div>
+					<div id="s2-7" class="on"></div>
+					<div id="s2-8" class="on"></div>
+					<div id="s2-9" class="on"></div>
+					<div id="s2-10" class="on"></div>
+
+					<div id="s2-11" class="on"></div>
+					<div id="s2-12" class="on"></div>
+					<div id="s2-13" class="on"></div>
+					<div id="s2-14" class="on"></div>
+					<div id="s2-15" class="on"></div>
+
+					<div id="s2-16" class="on"></div>
+					<div id="s2-17" class="on"></div>
+					<div id="s2-18" class="on"></div>
+					<div id="s2-19" class="on"></div>
+					<div id="s2-20" class="on"></div>
+
+					<div id="s2-21" class="on"></div>
+					<div id="s2-22" class="on"></div>
+					<div id="s2-23" class="on"></div>
+					<div id="s2-24" class="on"></div>
+					<div id="s2-25" class="on"></div>
+
+					<div id="s2-26" class="on"></div>
+					<div id="s2-27" class="on"></div>
+					<div id="s2-28" class="on"></div>
+					<div id="s2-29" class="on"></div>
+					<div id="s2-30" class="on"></div>
+
+					<div id="s2-31" class="on"></div>
+					<div id="s2-32" class="on"></div>
+					<div id="s2-33" class="on"></div>
+					<div id="s2-34" class="on"></div>
+					<div id="s2-35" class="on"></div>
+				</div>
+
+				<div id="glass"></div>
+
+			</div>
+
+			<div id="chain" class="chainLightsOn"></div>
+
+		</div>
+
+	<script type="text/javascript" src="webclock.js"></script>
+
+	</body>
+</html>
