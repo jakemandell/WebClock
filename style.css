@@ -19,6 +19,7 @@ body {
 	font-family: sans-serif;
 	font-size: 0.7em;
 	color: white;
+	overflow: hidden;
 }
 
 #image.lightsOn {

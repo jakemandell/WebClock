@@ -388,7 +388,15 @@
 
 		</div>
 
-	<script type="text/javascript" src="webclock.js"></script>
+	<script>
+	$(document).ready(function() {
+    loadScript();
+});
+
+	function loadScript(){
+		$.getScript("webclock.js");
+	}
+	</script>
 
 	</body>
 </html>
